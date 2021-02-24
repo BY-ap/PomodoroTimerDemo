@@ -309,6 +309,7 @@ function saveTimeSettings() {
     sBrkSec = shortBreaknumber * 60;
     lBrkSec = longBreaknumber * 60;
     document.getElementById("time").innerHTML = secToTime(workSec);
+}
 
 function chooseBgMusic(){
     if(document.getElementById("default-1").checked == true){
@@ -321,5 +322,4 @@ function chooseBgMusic(){
         document.getElementById("bg-music").src = "./source/Front-end/css/assets/default-3.mp3";
     }
     
-}
 }
